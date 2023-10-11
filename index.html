@@ -14,33 +14,49 @@
         <img src="assets/pato.png" alt="pato" class="h-14 w-15">
     </header>
     <main>
-        <h1 class="ml-5 text-[#ff9201] text-2xl text-center mt-5">Bíblia do Clube de Programação</h1>
-        <section class="ml-10 h-screen " id="biblia-enable" >  
-            <p class="text-[#ff9201] hover:text-[#C37307] text-xl mt-5 cursor-pointer" onclick="esconderBiblia()"  >&lt;Bíblia &gt;</p>
-            <div class="ml-10">
-                <p class="text-[#ff9201]  text-xl mt-5">&lt;10_mandamentos_do_pato &gt;</p>
+        <div class="flex flex-row h-16 align-center justify-center mt-5">
+            <img src="assets/pato.png" alt="pato" class="imagem-rotacionada">
+            <h1 class="ml-5 text-[#ff9201] text-2xl text-center mt-1 mr-5">Bíblia do Clube de Programação</h1>
+            <img src="assets/pato.png" alt="pato" class="imagem-rotacionada ">
+        </div>
+        
+        <section class="ml-10 h-screen flex flex-row justify-center block" id="biblia-enable" >
+            <div class="w-2/4 h-auto">
+                <p class="text-[#ff9201] hover:text-[#C37307] text-xl mt-5 cursor-pointer" onclick="esconderBiblia()"  >&lt;Bíblia &gt;</p>
                 <div class="ml-10">
-                    <ol class="list-decimal mt-6">
-                        <li class="text-[#ff9201]  text-xl mb-4">não_conserto_impressora</li>
-                        <li class="text-[#ff9201]  text-xl mb-4">na_minha_maquina_funciona</li>
-                        <li class="text-[#ff9201]  text-xl mb-4">calculo_==_alunos/2</li>
-                        <li class="text-[#ff9201]  text-xl mb-4">não_eh_bug_eh_feature</li>
-                        <li class="text-[#ff9201]  text-xl mb-4">vai_ficar_abstrato</li>
-                        <li class="text-[#ff9201]  text-xl mb-4">invejosos_dirao_q_eh_pog</li>
-                        <li class="text-[#ff9201]  text-xl mb-4">$sudo_apt_update_café</li>
-                        <li class="text-[#ff9201]  text-xl mb-4">se_compilou_commita</li>
-                        <li class="text-[#ff9201]  text-xl mb-4">salario_minimo_documentacao_minima</li>
-                        <li class="text-[#ff9201]  text-xl">nao_seja_um_pato</li>
-                    </ol>
+                    <p class="text-[#ff9201]  text-xl mt-5">&lt;10_mandamentos_do_pato &gt;</p>
+                    <div class="ml-10">
+                        <ol class="list-decimal mt-6">
+                            <li class="text-[#ff9201]  text-xl mb-4">não_conserto_impressora</li>
+                            <li class="text-[#ff9201]  text-xl mb-4">na_minha_maquina_funciona</li>
+                            <li class="text-[#ff9201]  text-xl mb-4">calculo_==_alunos/2</li>
+                            <li class="text-[#ff9201]  text-xl mb-4">não_eh_bug_eh_feature</li>
+                            <li class="text-[#ff9201]  text-xl mb-4">vai_ficar_abstrato</li>
+                            <li class="text-[#ff9201]  text-xl mb-4">invejosos_dirao_q_eh_pog</li>
+                            <li class="text-[#ff9201]  text-xl mb-4">$sudo_apt_update_café</li>
+                            <li class="text-[#ff9201]  text-xl mb-4">se_compilou_commita</li>
+                            <li class="text-[#ff9201]  text-xl mb-4">salario_minimo_documentacao_minima</li>
+                            <li class="text-[#ff9201]  text-xl">nao_seja_um_pato</li>
+                        </ol>
+                    </div>
+                    <p class="text-[#ff9201]  text-xl mt-5">&lt;/10_mandamentos_do_pato &gt;</p>
                 </div>
-                <p class="text-[#ff9201]  text-xl mt-5">&lt;/10_mandamentos_do_pato &gt;</p>
+                <p class="text-[#ff9201]  text-xl mt-5">&lt;/Bíblia &gt;</p>
             </div>
-            <p class="text-[#ff9201]  text-xl mt-5">&lt;/Bíblia &gt;</p>
+            <div class="w-2/4 h-auto flex flex-row justify-center items-center">
+                <img src="assets/LOGO CLUBE.png" alt="Logo do clube" class="imagem-tremida">
+            </div>
+            
         </section>
-        <section class="ml-10 h-screen"  id="biblia-disable" style="display: none;">
-            <p class="text-[#ff9201] hover:text-[#C37307] text-xl mt-5 cursor-pointer" onclick="descobrirBiblia()">&lt;Bíblia &gt;</p>
-            <span class="text-[#ff9201] ml-10 text-3xl mt-5">...</span>
-            <p class="text-[#ff9201]  text-xl mt-5">&lt;/Bíblia &gt;</p>
+        <section class="ml-10 h-screen flex flex-row justify-center hidden"  id="biblia-disable">
+            <div class="w-2/4 h-auto">
+                <p class="text-[#ff9201] hover:text-[#C37307] text-xl mt-5 cursor-pointer" onclick="descobrirBiblia()">&lt;Bíblia &gt;</p>
+                <span class="text-[#ff9201] ml-10 text-3xl mt-5">...</span>
+                <p class="text-[#ff9201]  text-xl mt-5">&lt;/Bíblia &gt;</p>
+            </div>
+            <div class="w-2/4 h-auto flex flex-row justify-center items-center">
+                <img src="assets/LOGO CLUBE.png" alt="Logo do clube" class="imagem-tremida">
+            </div>
         </section>
 
     </main>

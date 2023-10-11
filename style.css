@@ -1,0 +1,34 @@
+.imagem-rotacionada{
+    width: 48px;
+    height: 48px;
+    animation: spin 4s linear infinite;
+}
+.imagem-tremida{
+    width: 400px;
+    height: 400px;
+    animation: shake 2s linear infinite;
+    
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes shake {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(24px, -24px);
+    }
+    50% {
+        transform: translate(-24px, 24px);
+    }
+    75% {
+        transform: translate(24px, 24px);
+    }
+    
+}
